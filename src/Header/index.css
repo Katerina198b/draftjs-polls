@@ -1,0 +1,19 @@
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.logo:first-letter {
+    color: white;
+    padding: 0 8px;
+    margin-right: 5px;
+    background: rgba(3, 168, 124, 1);
+    border-radius: 5px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+}

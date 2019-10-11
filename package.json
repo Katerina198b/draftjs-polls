@@ -1,5 +1,5 @@
 {
-  "name": "advanced-react-webpack-babel-setup",
+  "name": "rich-text-editor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
-  "author": "Robin Wieruch <opensource@rwieruch.com> (https://www.robinwieruch.de)",
+  "author": "katerina198b",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -19,6 +19,7 @@
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
     "dotenv-webpack": "^1.7.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -39,8 +40,19 @@
     "webpack-visualizer-plugin": "^0.1.11"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "bem-cn": "^3.0.1",
+    "draft-js": "^0.11.1",
+    "immutable": "^4.0.0-rc.12",
+    "immutable-js": "^0.3.1-6",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0"
   }
 }

@@ -1,15 +1,11 @@
 {
   "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true
-  },
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": ["error"],
-    "import/no-extraneous-dependencies": 0,
-    "react/jsx-filename-extension": 0
+    "no-undef": "off",
+    "new-cap": "off",
+    "no-fallthrough": "off",
+    "one-var": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "max-len": ["warn", 100]
   }
 }

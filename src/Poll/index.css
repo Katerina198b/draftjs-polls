@@ -1,0 +1,59 @@
+
+.poll {
+    background: #eee;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.poll * {
+    display: inline-block!important;
+}
+
+.poll__inner {
+    background: linear-gradient(135deg, rgba(3, 168, 124,.8) 0%, rgba(40, 66, 99, 0.8) 100%);
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    max-width: 700px;
+    margin: 20px;
+}
+
+.poll__answers {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.poll__answer {
+    padding: 12px 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+
+.poll__radio {
+    display: none;
+}
+
+.poll__answer-description {
+    display: none;
+}
+
+.poll__radio:checked ~ .poll__answer-description {
+    display: inline-block;
+}
+
+.poll__radio:checked ~ .poll__answer {
+    background: rgba(255, 0, 15, 0.4);
+}
+
+.poll__radio_correct:checked ~ .poll__answer {
+    background: rgba(73, 255, 81, 0.4);
+}
